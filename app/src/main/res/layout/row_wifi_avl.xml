@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_appcolor_border"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_height="@dimen/_50sdp">
+
+        <LinearLayout
+            android:id="@+id/lAvlWifi"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_12sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtWifiSID"
+                android:layout_width="wrap_content"
+                android:text="Wifi Name"
+                style="@style/myBoldTextView"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txtWifiMac"
+                android:layout_width="wrap_content"
+                android:text="Mac Add"
+                style="@style/myRegularTextView"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_right" />
+    </RelativeLayout>
+
+</LinearLayout>

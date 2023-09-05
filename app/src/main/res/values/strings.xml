@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Wifi Password</string>
+
+    <string name="permission_error">Allow permission for storage access!</string>
+    <string name="permission_denied_msg">Permission denied please allow permission from setting</string>
+    <string name="kBps">kB/s</string>
+    <string name="MBps">MB/s</string>
+    <string name="kbps">kb/s</string>
+    <string name="Mbps">Mb/s</string>
+    <string name="plus99">99+</string>
+    <string name="dash">-</string>
+    <string name="down">down</string>
+    <string name="exit_title">Are you sure you want to exit?</string>
+    <string name="wifi_not_connect">wifi not connect</string>
+    <string name="download_url">https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png</string>
+    <string name="Danger">Danger</string>
+    <string name="Safety">Safety</string>
+    <string name="WPA2">WPA2</string>
+    <string name="WPA">WPA</string>
+    <string name="WEP">WEP</string>
+    <string name="POOR">POOR</string>
+    <string name="MODERATE">MODERATE</string>
+    <string name="GOOD">GOOD</string>
+    <string name="EXCELLENT">EXCELLENT</string>
+    <string name="UNKNOWN">UNKNOWN</string>
+    <string name="share_type" translatable="false">text/plain</string>
+    <string name="shareMessage1" translatable="false">\nLet me recommend you </string>
+    <string name="choose_one" translatable="false">choose one</string>
+    <string name="shareMessage2" translatable="false"> application /n</string>
+    <string name="play_store_start_url" translatable="false">http://play.google.com/store/apps/details?id=</string>
+    <string name="play_store_start_url_2" translatable="false">http://play.google.com/store/apps/developer?id=</string>
+    <string name="toolPassword">Wi-fi Password</string>
+    <string name="toolAvlWifi">Available Wi-fi</string>
+    <string name="toolMoreApps">More Apps</string>
+    <string name="toolWifiAnyslr">Wifi Analyzer</string>
+    <string name="txtAdvSet">Advance Settings</string>
+    <string name="txtWifiTool">Wifi Tools</string>
+    <string name="txtSetting">Setting</string>
+    <string name="txtOther">Others Details</string>
+    <string name="txtIPSetting">IP Settings</string>
+    <string name="txtHotspot">Tethering and hotspot</string>
+    <string name="shareApp">Share App</string>
+    <string name="rateApp">Rate us</string>
+    <string name="moreApp">More Apps</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="txtDeviceName">Phone Details</string>
+</resources>
