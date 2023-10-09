@@ -115,8 +115,8 @@
 -keep class mypersonalclass.data.model.** { *; }
 -keep class com.player.cricketfirst.model.** { <fields>; }
 
--keep class com.team.wifimanager.Model.ResponseModel {*;}
--keep class com.team.wifimanager.Model.RequestModel {*;}
--keep class com.team.wifimanager.Model.CategoryModel {*;}
--keep class com.team.wifimanager.Model.DeviceItem {*;}
--keep class com.team.wifimanager.Model.AvlWifi {*;}
+-keep class com.prowify.wifimanager.Model.ResponseModel {*;}
+-keep class com.prowify.wifimanager.Model.RequestModel {*;}
+-keep class com.prowify.wifimanager.Model.CategoryModel {*;}
+-keep class com.prowify.wifimanager.Model.DeviceItem {*;}
+-keep class com.prowify.wifimanager.Model.AvlWifi {*;}

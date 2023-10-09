@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.team.wifimanager">
+    package="com.prowify.wifimanager">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -13,7 +13,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
-        android:name=".Others.MyApplication"
+        android:name="com.prowify.wifimanager.Others.MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="false"
@@ -27,20 +27,20 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".MoreAppsActivity"
+            android:name="com.prowify.wifimanager.MoreAppsActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.WifiAnalyserActivity"
+            android:name="com.prowify.wifimanager.Activity.WifiAnalyserActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.WifiPasswordActivity"
+            android:name="com.prowify.wifimanager.Activity.WifiPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.WifiListActivity"
+            android:name="com.prowify.wifimanager.Activity.WifiListActivity"
             android:exported="false" />
 
         <activity
-            android:name=".Activity.SplashActivity"
+            android:name="com.prowify.wifimanager.Activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,7 +60,7 @@
         </activity>
 
         <service
-            android:name=".Others.MyFirebaseMessagingService"
+            android:name="com.prowify.wifimanager.Others.MyFirebaseMessagingService"
             android:stopWithTask="false"
             android:exported="true">
             <intent-filter>
@@ -69,18 +69,18 @@
         </service>
         <meta-data
             android:name="applovin.sdk.key"
-            android:value="HTKHKIx8MKfBcLPUtKW7s0K4HhQX6TUmube1mSwSSJwKz5VWc17F_8WXBrXSfEXT0Ag04VTmBH1nq69eLs0saD" />
+            android:value="TcO6ndFkwV7xvw94d_v6B9CTPN6qLnrBgX9ykfsQrIvveRWxzmPlQlQU5l0u0BTD87hq5GscBHmg9DxpX7Vsnf" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-4029489880455805~8195068379" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.prowify.wifimanager.MainActivity"
             android:exported="true" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.team.wifimanager"
+            android:authorities="com.prowify.wifimanager"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

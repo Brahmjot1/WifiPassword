@@ -433,6 +433,15 @@
 
     </androidx.core.widget.NestedScrollView>
 
+    <com.applovin.mediation.ads.MaxAdView
+        xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        maxads:adUnitId="s2s-test-1"
+        android:id="@+id/adLovinBanner"
+        android:background="@color/appColor"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50dp"/>
+
     <include
         layout="@layout/layout_floting_banner_ads"
         android:layout_marginRight="@dimen/_10sdp"
